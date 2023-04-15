@@ -1,0 +1,70 @@
+.formContainer {
+  background-color: #c2bcbcad;
+  min-width: 20rem;
+  max-width: 30rem;
+  margin: 0 auto 2rem auto;
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 1rem;
+  border-radius: .5rem;
+}
+
+.check {
+  display: block;
+  width: 1.6rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background: transparent;
+}
+
+.inputTodo {
+  outline: none;
+  border: none;
+  width: 100%;
+  border-radius: .5rem;
+  font-size: 1rem;
+  padding: .5rem .5rem;
+}
+
+.inputTodo::placeholder{
+  color: rgb(186, 192, 192);
+}
+
+.containerUl {
+  margin: 0 auto;
+  min-width: 20rem;
+  max-width: 30rem;
+  border-radius: .5rem;
+  background-color: #c2bcbcad;
+  padding: 1rem 1rem;
+}
+
+.todoLi {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  padding: .4rem .8rem;
+  border-radius: .25rem;
+} 
+
+.btn:hover {
+  background-color: #fff;
+  color: #a8a3a3;
+  transition: background-color .7s, color .6s;
+}
+
+.btnLi {
+  margin-right: .25rem;
+}
+
+.todoLi__todo {
+  display: flex; 
+  align-items: center;
+  gap: 1rem;
+}
